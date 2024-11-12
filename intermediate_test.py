@@ -32,8 +32,7 @@ def insert_at_beginning(numbers):
     Return:
     - The modified list.
     """
-    number = [0]
-    numbers = number + numbers
+    numbers.insert(0,0)
     return numbers
 
 
